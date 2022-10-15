@@ -1,0 +1,195 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    
+    margin: 0;
+    background-color: #fff;
+    color: #787878;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0;
+}
+
+/* --------------- Container --------------- */
+.containner {
+    width: 100%;   
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: green;
+}
+
+/* --------------- Button --------------- */
+.btn {
+    padding: 23px 46px;
+    background-color: #10c9c3;
+    text-decoration: none;
+    
+    letter-spacing: 1px;
+    
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-size: 12px;
+}
+
+.btn:hover {
+    background-color: #13a9a4;
+    text-decoration: underline;
+}
+
+/* --------------- Header --------------- */
+.header {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.header__inner {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 44px 0;
+}
+
+/* --------------- Nav --------------- */
+.nav {
+    display: flex;
+}
+
+.nav__link {
+    margin-left: 25px;
+    
+    text-transform: uppercase;
+    color: #191919;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    color: #10c9c3;
+    text-decoration: underline;
+}
+
+/* --------------- Intro --------------- */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 670px;
+    background-color: #e9e9e9;
+}
+
+.intro__inner {
+    margin-left: auto;
+    margin-right: 0;
+    max-width: 470px;
+}
+
+.intro__title {
+    color: #1d1d1d;
+    font-family: "Montserrat";
+    font-size: 38px;
+    line-height: 1.25;
+    margin-bottom: 32px;
+}
+
+.intro__text {
+    font-family: inherit;
+    color: #787878;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 37px;
+}
+
+/* --------------- About --------------- */
+.about {
+    background-color: #fff;
+    min-height: 426px;
+    display: flex;
+    justify-content: center;
+}
+
+.about__inner {
+    width: 600px;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.about__title {
+    font-size: 30px;
+    line-height: 2;
+    color: #191919;
+    font-family: "Montserrat";
+    
+    margin-bottom: 38px;
+}
+
+.about__text {
+    font-family: inherit;
+    color: #787878;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    margin-bottom: 38px;
+}
+
+/* --------------- Skills --------------- */
+.skills {
+    background-color: #e9e9e9;
+}
+
+.skills__inner {    
+    padding: 165px 0;
+    width: 50%;
+    background-color: #f8f9f9;
+}
+
+.skills__box {
+    text-align: center; 
+}
+
+.skills__title {
+    font-size: 30px;
+    line-height: 2.8;
+    color: #171717;
+    font-family: "Montserrat";
+}
+
+.skills__text {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 2.5;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "Montserrat";
+}
+
+
+
+
+
+
+
+
+
+
+
+
