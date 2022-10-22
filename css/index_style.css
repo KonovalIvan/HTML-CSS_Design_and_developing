@@ -159,11 +159,14 @@ p {
 .skills__inner {    
     padding: 165px 0;
     width: 50%;
-    background-color: #f8f9f9;
+    background-color: #f8f9f9; 
 }
 
 .skills__box {
-    text-align: center; 
+    position: absolute;
+    left: 25%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 .skills__title {
@@ -180,7 +183,83 @@ p {
     text-transform: uppercase;
     color: #000000;
     font-family: "Montserrat";
+
+    
+    border-bottom: 3px inset #d8d8d8;
+    min-width: 500px;
+    margin-bottom: -3px;
 }
+
+.skills__text:last-child {
+    margin-bottom: 0;
+}
+
+.skills__75 {
+    border-bottom: 3px inset #10c9c3;
+    width: 75%;
+    margin-bottom: 19px;
+}
+
+.skills__90 {
+    width: 90%;
+    border-bottom: 3px inset #10c9c3;
+    margin-bottom: 19px;
+}
+
+.skills__65 {
+    width: 65%;
+    border-bottom: 3px inset #10c9c3;
+    margin-bottom: 19px;
+}
+
+/* --------------- Work --------------- */
+.work {
+    display: flex;
+    
+    background-color: #10c9c3;
+    padding: 100px 102px 100px 102px;
+    
+}
+
+.work__item {
+    flex: 1 1 0;
+    width: 25%;
+    position: relative;
+    padding-left: 70px;
+    padding-right: 35px;
+    
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Montserrat";
+    letter-spacing: 1px;
+}
+
+
+.work__icon {
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 0;
+    
+    max-width: 40px;
+    margin-right: 27px;
+}
+
+.work__title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.work__text {
+    font-size: 12px;
+}
+
+---------------
+
+
+
+
 
 
 
