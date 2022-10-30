@@ -19,6 +19,13 @@ p {
     margin: 0 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 /* --------------- Container --------------- */
 .container {
     width: 100%;   
@@ -360,21 +367,209 @@ p {
 .process__video {
     margin-top: 50px;
     margin-bottom: 100px;
+    background-color: #e9e9e9;
 }
 
+/* --------------- Process --------------- */
+.services {
+    background-color: #f5f5f5;
+    padding: 70px 0;
+}
 
+.services__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -30px;
+}
 
+.services__content {
+    width: 25%;
+    text-align: center;
+    margin: 30px 0;
+    position: relative;
+    overflow: hidden;
+    padding: 0 30px;
+}
 
+.services__icon {
+    margin-bottom: 17px;
+}
 
+.services__title {
+    margin-bottom: 17px;
+    
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 2.5;
+    text-transform: uppercase;
+    color: #191919;
+    font-family: "Montserrat";
+}
 
+.services__text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #787878;
+    font-family: inherit;
+}
 
+/* --------------- Testimonials --------------- */
+.testimonials {
+    background-color: #10c9c3;
+}
 
+.testimonials__content {
+    width: 60%;
+    text-align: center;
+    padding: 178px 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+    color: #ffffff;
+    font-family: "Montserrat";
+}
 
+.testimonials__text {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 35px;
+}
 
+.testimonials__author {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 3;
+    text-transform: uppercase;
+}
 
+/* --------------- Clients --------------- */
+.clients {
+    padding: 70px 0;
+    border-color: inherit;
+}
 
+.clients__inner {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: -5%;
 
+}
 
+.clients__content {
+
+}
+
+.client__icon {
+    max-width: 20%;
+    padding: 5%;
+}
+
+/* --------------- Contact --------------- */
+.contact {
+    background-color: #f5f5f5;
+    min-height: 200px;
+    padding: 100px 0;
+}
+
+.contact__inner {
+    text-align: center;
+}
+
+.contact__text {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+.contact__author {
+    margin-bottom: 35px;
+}
+
+.contact__form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    
+    font-size: 15px;
+    line-height: 1.5;
+    color: #787878;
+    font-family: inherit;
+}
+
+input[type=text], select, textarea {
+    border: none;
+    padding-left: 22px;
+    margin-bottom: 30px;
+    height: 50px;
+    
+    font-size: 15px;
+    line-height: 1.5;
+    color: #787878;
+    font-family: inherit;
+}
+
+.contact__name {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.contact__email {
+    width: 48%;
+    margin-right: 2%;
+    float: right;
+}
+
+.contact__title {
+    width: 100%;
+}
+
+.contact__comment {
+    width: 100%;
+    min-height: 175px;
+    resize: vertical;
+}
+
+/* --------------- Contact --------------- */
+.footer {
+    background-color: #141414;
+    padding: 100px 0;
+}
+
+.footer__inner {
+    display: flex; 
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer__block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    max-width: 20%;
+}
+
+.footer__title {
+    font-size: 18px;
+/*    line-height: 4;*/
+    padding-bottom: 36px;
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+
+.footer__text {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    text-align: left;
+}
 
 
 
